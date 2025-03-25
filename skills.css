@@ -1,0 +1,51 @@
+body {
+    background-color: #f9f9f9;
+    padding: 50px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+h1 {
+    color: rgb(38, 127, 205);
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    color: rgb(48, 58, 174);
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+mark {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
